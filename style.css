@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "Montserrat", cursive;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.container {
+    margin: 10px 10%;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+.navbar {
+    width: 100%;
+    height: 60px;
+}
+
+.logo {
+    width: 110px;
+    cursor: pointer;
+}
+
+.line {
+    width: 2px;
+    height: 50px;
+    position: relative;
+    bottom: 50px;
+    left: 15%;
+    background-color: #ffffff;
+}
+
+.list {
+    position: absolute;
+    left: 25%;
+    top: 15px;
+    color: #ffffff;
+    list-style: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.list-item {
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.list-item:hover {
+    font-weight: 800;
+}
+
+.button-small {
+    position: absolute;
+    right: 10%;
+    top: 10px;
+    padding: 10px 30px;
+    background-color: #c006c1;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+.hero {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("./assets/bg.png");
+}
+
+.hero-heading {
+    position: relative;
+    top: 28%;
+    left: 22%;
+    width: 60%;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-size: 70px;
+    text-align: center;
+}
+
+.hero-description {
+    position: relative;
+    top: 30%;
+    left: 30%;
+    width: 60%;
+    font-family: "Poppins";
+    font-size: 27px;
+    color: #ffffff;
+}
+
+.button-large {
+    position: relative;
+    top: 40%;
+    left: 40%;
+    padding: 10px 20px;
+    background-color: #c006c1;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
